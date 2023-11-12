@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 32px;
+  color: white;
+  background: #374457;
+  height: 100px;
+  font-size: larger;
+}
+
+li{
+  display: inline;
+  padding: 12px;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.5s;
+}
+
+a:hover{
+  color: #3882f6;
+}
+
+.image img{
+  width: 400px;
+  height: 400px;
+  float: right;
+  border-radius: 50%;
+  float: right;
+}
+
+.section-container{
+  display: flex;
+  background: #374457;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  align-items: center;
+}
+
+.text h1{
+  margin: 12px;
+  font-size: xx-large;
+}
+
+h1:nth-child(2){
+  color: green;
+}
+
+.text p{
+  padding: 12px 12px;
+  font-size: large;
+}
+
+.text button{
+    background: #3882f6;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-top: 12px;
+    font-size: medium;
+    font-weight: bold;
+    transition: background-color 0.5s;
+  }
+
+  button:hover{
+    color: black;
+    border-radius: 150%;
+    background: #374457;
+  }
+
+
+
+@media (max-width: 768px) {
+  .section-container{
+    flex-direction: column;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text h1{
+    font-size: medium;
+    font-weight: bold;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text p{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    padding-left: 5rem;
+  }
+
+  button{
+    margin-left: 5rem;
+    width: 5px;
+    height: 5px;
+  }
+
+  .image img{
+    width: 35vh;
+    height: 30vh;
+    margin-top: 2rem;
+  }
+
+ .container{
+   display: flex;
+   justify-content: space-between;
+   margin: 0;
+   padding: 0;
+ }
+
+ .title-button{
+  font-size: x-small;
+  padding-top: 11px;
+  padding-right: 12px;
+ }
+
+ .title{
+  font-size: small;
+  padding-top: 10px;
+  padding-left: 16px;
+ }
+
+
+ 
+}
