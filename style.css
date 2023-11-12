@@ -18,14 +18,14 @@ body {
   justify-content: space-between;
   padding: 30px 32px;
   color: white;
-  background: #374457;
+  background: #1f2937;
   height: 100px;
   font-size: larger;
 }
 
 li{
   display: inline;
-  padding: 12px;
+  padding: 50px;
   list-style-type: none;
 }
 
@@ -44,12 +44,12 @@ a:hover{
   height: 400px;
   float: right;
   border-radius: 50%;
-  float: right;
+  margin-right: 70px;
 }
 
 .section-container{
   display: flex;
-  background: #374457;
+  background: #1f2937;
   justify-content: space-between;
   align-items: center;
   padding: 60px;
@@ -59,33 +59,144 @@ a:hover{
 .text h1{
   margin: 12px;
   font-size: xx-large;
+  padding: 0 110px;
+  color: white;
 }
 
 h1:nth-child(2){
   color: green;
+  padding: 0 110px;
+  font-size: xx-large;
 }
 
 .text p{
-  padding: 12px 12px;
+  padding: 12px 118px;
   font-size: large;
+  color: white;
 }
 
 .text button{
-    background: #3882f6;
+    display: block;
+    background: green;
     color: white;
-    width: 100px;
-    height: 50px;
+    width: 250px;
+    height: 80px;
     margin-top: 12px;
     font-size: medium;
+    font-weight: bold;
+    margin-left: 115px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Roboto', arial;
     font-weight: bold;
     transition: background-color 0.5s;
   }
 
   button:hover{
-    color: black;
-    border-radius: 150%;
+    color: white;
     background: #374457;
   }
+
+  
+
+.content-info-page{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content-info-page img{
+  width: 400px;
+  height: 400px;
+  padding: 32px 30px;
+  border: 1px solid black;
+  object-fit: fill;
+}
+
+.content-info-page p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-content h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.quote-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  border: 2px solid black;
+  height: 100px;
+  margin-top: 7rem;
+  background: whitesmoke;
+}
+
+.quote-container p{
+  font-size: x-large;
+}
+
+.quote-container b{
+  padding-top: 5rem;
+  font-size: large;
+  font-weight: bold;
+}
+
+.sign-up-container{
+  background: #3882f6;
+  padding: 10px 80px;
+  margin: 50px 200px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-color: none;
+  border-radius: 5px;
+}
+
+.sign-text{
+  text-align: left;
+}
+
+.sign-item{
+  flex: 1;
+}
+
+.sign-text h3{
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.sign-text p{
+  font-size: medium;
+  font-weight: bold;
+}
+
+.sign-button button{
+  color: white;
+  background: #3882f6;
+  border-radius: 8px;
+  padding: 5px 30px;
+  margin-left: 50px;
+  font-family: Italic;
+  font-weight: bold;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #374457;
+  color: white;
+  padding: 10px 80px;
+  font-family: Italic;
+  font-size: large;
+}
 
 
 
